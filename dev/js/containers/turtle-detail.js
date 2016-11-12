@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import SmileyFace from "../../../public/images/SmileyFace.jpeg"
 
 //alternative code
 @connect((state) => {    
@@ -18,6 +19,7 @@ class TurtleDetail extends React.Component {
     }
   	return (
       <div>
+        <img class="img-responsive" src={this.props.turtle.image} width="180" alt={SmileyFace} />
         <em>
           <h4>{this.props.turtle.name} aka "{this.props.turtle.aka}"</h4>
           <h4>Age: {this.props.turtle.age}?</h4>

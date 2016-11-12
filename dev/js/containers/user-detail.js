@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import SmileyFace from "../../../public/images/SmileyFace.jpeg"
 
 //alternative code
 @connect((state) => {    
@@ -18,6 +19,7 @@ class UserDetail extends React.Component {
     }
   	return (
       <div>
+        <img class="img-responsive" src={this.props.user.image} width="180" alt={SmileyFace} />
         <em>
            <h4>{this.props.user.name} {this.props.user.last}</h4>
            <h4>Born: {this.props.user.born}</h4>
