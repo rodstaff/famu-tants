@@ -11,7 +11,7 @@ export default function() {
       aka: "Leo",
       age: 17,
       image: Leonardo,
-      description: "Leonardo is the cool, courageous leader of the Ninja Turtles and a devoted student of Ninjutsu, usually wearing a blue mask and wielding two katanas. Leader in blue" 
+      description: "Leonardo is the cool, courageous leader of the Ninja Turtles and a devoted student of Ninjutsu, usually wearing a blue mask and wielding two katanas. Leader in blue." 
     },
     {
   	  id: 2,
