@@ -1,11 +1,12 @@
 import React from 'react'
-
-var myStyle = {
-  	marginLeft: 30
-  }
   
-export const Home = () => (
+var myStyle = {
+  	marginLeft: 30,
+  	marginRight: 25,
+  	fontFamily: 'Dosis'
+}
 
+export const Home = () => (
   <div style={myStyle}>
     <br />
     <h2>Welcome to the World of Fame and muTAatIoNs!</h2>

@@ -1,8 +1,12 @@
 import React from 'react'
 import { IndexLink } from 'react-router'
 
+var myStyle = {
+    fontFamily: 'Dosis'
+  }
+
 export const Container = (props) => (
-  <div>
+  <div style={myStyle}>
     <Nav /> 
     {props.children}
   </div>

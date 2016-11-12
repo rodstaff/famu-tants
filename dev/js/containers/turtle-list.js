@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import { selectTurtle } from '../actions/turtle'
 
 class TurtleList extends React.Component {
-
   createListItems() {
     return (
       this.props.turtles.map((turtle) => {
