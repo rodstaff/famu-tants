@@ -6,7 +6,7 @@ import { selectTurtle } from '../actions/turtle'
 class TurtleList extends React.Component {
   createListItems() {
     return (
-      this.props.turtles.map((turtle) => {
+      this.props.turtles.map(turtle => {
   	    return (   
             <li key={turtle.id} onClick={() => this.props.selectTurtle(turtle)} > 
             {turtle.name} 

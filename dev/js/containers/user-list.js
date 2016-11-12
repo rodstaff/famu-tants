@@ -13,10 +13,9 @@ import { selectUser } from '../actions/user'
 // store.dispatch({type: "ADD_USER_AGE", payload: 23})
 
 class UserList extends React.Component {
-
   createListItems() {
     return (
-      this.props.users.map((user) => {
+      this.props.users.map(user => {
   	    return (
             <li key={user.id} onClick={() => this.props.selectUser(user)} > 
               {user.name} {user.last}

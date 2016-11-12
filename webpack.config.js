@@ -5,7 +5,7 @@ module.exports = {
   //entry: './dev/js', 
   entry: './routes', 
   output: {
-    path: '../rr-heroku/',
+    path: '../famu-tants-heroku/',
     filename: 'bundle.js'  
   },
   devServer: {
