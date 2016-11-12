@@ -4,12 +4,12 @@ import UserDetail from '../containers/user-detail'
 //require('../../scss/style.scss');
 
 const CompUser = () => (
-  <div>
-    <h2>Influential Persons List:</h2>
-    <UserList />
-    <hr />
-    <h2>Bio:</h2>
-    <UserDetail />
-  </div>
+   <div>
+     <h3>Influential Persons List:</h3>
+     <UserList />
+     <hr/>
+     <h3>Bio:</h3>
+     <UserDetail />
+   </div>
 );
 export default CompUser;

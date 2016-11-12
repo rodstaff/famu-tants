@@ -5,10 +5,10 @@ import TurtleDetail from '../containers/turtle-detail'
 
 const CompTurtle = () => (
   <div>
-    <h2>Ninja Turtles List:</h2>
+    <h3>Ninja Turtles List:</h3>
     <TurtleList />
     <hr />
-    <h2>Teenager Bio:</h2>
+    <h3>Bio:</h3>
     <TurtleDetail />
   </div>
 );

@@ -18,22 +18,22 @@ class UserList extends React.Component {
     return (
       this.props.users.map((user) => {
   	    return (
-          <li key={user.id}
-            onClick={() => this.props.selectUser(user)}
-          > 
-            {user.name} {user.last}
-          </li>
+            <li key={user.id} onClick={() => this.props.selectUser(user)} > 
+              {user.name} {user.last}
+            </li>
   	    );
       })
     );
   }
-    render() {
-  	  return (
+  render() {
+  	return (
+      <h4>
         <ul>
           {this.createListItems()}
         </ul>
-  	  );
-    }
+      </h4>
+  	);
+  }
 }
 function mapStateToProps(state) {
   return {

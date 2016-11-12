@@ -1,10 +1,14 @@
 import React from 'react'
 import CompTurtle from '../dev/js/components/comp-turtle'
 
+var myStyle1 = {
+  	marginLeft: 30
+  }
+
 export const Turtles = (props) => (
-  <div>
+  <div style={myStyle1}>
     <br />
-    <h1>This is the Turtles Page</h1>
+    <h2>This is the Turtles Page</h2>
     <CompTurtle />
   </div>
 )

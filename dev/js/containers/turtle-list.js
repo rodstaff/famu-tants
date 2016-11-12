@@ -8,23 +8,23 @@ class TurtleList extends React.Component {
   createListItems() {
     return (
       this.props.turtles.map((turtle) => {
-  	    return (
-          <li key={turtle.id}
-            onClick={() => this.props.selectTurtle(turtle)}
-          > 
+  	    return (   
+            <li key={turtle.id} onClick={() => this.props.selectTurtle(turtle)} > 
             {turtle.name} 
-          </li>
+            </li>     
   	    );
       })
     );
   }
-    render() {
-  	  return (
+  render() {
+  	return (
+      <h4>
         <ul>
           {this.createListItems()}
         </ul>
-  	  );
-    }
+      </h4>
+  	);
+  }
 }
 function mapStateToProps(state) {
   return {

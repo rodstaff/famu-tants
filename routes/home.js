@@ -1,9 +1,14 @@
 import React from 'react'
 
+var myStyle = {
+  	marginLeft: 30
+  }
+  
 export const Home = () => (
-  <div>
+
+  <div style={myStyle}>
     <br />
-    <h1>Welcome to the World of Fame and muTAatIoNs!</h1>
-    <h4>Click on the above links to see more...</h4>
+    <h2>Welcome to the World of Fame and muTAatIoNs!</h2>
+    <h4>> click on navigation to see more...</h4>
   </div>
 )
