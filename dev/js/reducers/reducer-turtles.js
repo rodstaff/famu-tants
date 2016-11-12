@@ -1,7 +1,7 @@
-import Leonardo from "../../../public/images/leonardo.jpeg"
-import Michaelangelo from "../../../public/images/michaelangelo.jpeg"
-import Donatello from "../../../public/images/donatello.jpeg"
-import Raphael from "../../../public/images/raphael.jpeg"
+import Leonardo from "../../../public/images/leonardo.png"
+import Michaelangelo from "../../../public/images/michaelangelo.png"
+import Donatello from "../../../public/images/donatello.png"
+import Raphael from "../../../public/images/raphael.png"
 
 export default function() {
   return [

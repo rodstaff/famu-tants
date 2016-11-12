@@ -19,12 +19,12 @@ class TurtleDetail extends React.Component {
     }
   	return (
       <div>
-        <img class="img-responsive" src={this.props.turtle.image} width="180" alt={SmileyFace} />
+        <img class="img-responsive" src={this.props.turtle.image} width="250" alt={SmileyFace} />
         <em>
           <h4>{this.props.turtle.name} aka "{this.props.turtle.aka}"</h4>
           <h4>Age: {this.props.turtle.age}?</h4>
           <h4>Description: {this.props.turtle.description}</h4>
-          <h5>(Descriptions from Wikipedia)</h5>
+          <h5>(Images and descriptions courtesy of Wikipedia)</h5>
         </em>
       </div>
   	);

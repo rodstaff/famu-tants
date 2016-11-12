@@ -1,10 +1,10 @@
-import daVinci from "../../../public/images/daVinci.jpeg"
-import Einstein from "../../../public/images/Einstein.jpeg"
-import Euler from "../../../public/images/Euler.jpeg"
-import Lemaitre from "../../../public/images/Lemaitre.jpeg"
-import MTeresa from "../../../public/images/MTeresa.jpeg"
-import Newton from "../../../public/images/Newton.jpeg"
-import Schroedinger from "../../../public/images/Schroedinger.jpeg"
+import daVinci from "../../../public/images/daVinci.jpg"
+import Einstein from "../../../public/images/Einstein.jpg"
+import Euler from "../../../public/images/Euler.jpg"
+import Lemaitre from "../../../public/images/Lemaitre.jpg"
+import MTeresa from "../../../public/images/MTeresa.jpg"
+import Newton from "../../../public/images/Newton.jpg"
+import Schroedinger from "../../../public/images/Schroedinger.jpg"
 
 export default function() {
   return [

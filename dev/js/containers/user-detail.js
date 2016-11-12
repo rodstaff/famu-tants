@@ -19,13 +19,13 @@ class UserDetail extends React.Component {
     }
   	return (
       <div>
-        <img class="img-responsive" src={this.props.user.image} width="180" alt={SmileyFace} />
+        <img class="img-responsive" src={this.props.user.image} width="300" alt={SmileyFace} />
         <em>
            <h4>{this.props.user.name} {this.props.user.last}</h4>
            <h4>Born: {this.props.user.born}</h4>
            <h4>Would have been {this.props.user.age} yrs. old now, if were still alive.</h4>
            <h4>Description: {this.props.user.description}</h4>
-           <h5>(Descriptions from Wikipedia)</h5>
+           <h5>(Photos and descriptions courtesy of Wikipedia)</h5>
         </em>
       </div>
   	);
