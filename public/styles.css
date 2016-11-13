@@ -1,3 +1,6 @@
 body {
   background-color: #FFCC00;
 }
+li {
+  cursor: pointer;
+}
