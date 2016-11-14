@@ -6,7 +6,7 @@ var d = "";
   	a=a-1,
   	b=12-Math.abs(b)
   }
-  if(c<0) {
+  if(c>0) {
   	b=b+1
   }
   if (b===0 && c===0) {
