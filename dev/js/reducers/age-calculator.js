@@ -7,7 +7,7 @@ var d = "";
   	b=12-Math.abs(b)
   }
   if(c<0) {
-  	b=b-1
+  	b=b+1
   }
   if (b===0 && c===0) {
     d=": Hey, Happy Birthday!!!"

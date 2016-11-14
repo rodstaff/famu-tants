@@ -9,7 +9,7 @@ export default function() {
       id: 1,
       name: "Leonardo",
       aka: "Leo",
-      age: "< 20",
+      age: "eternally < 20",
       image: Leonardo,
       description: "Leonardo is the cool, courageous leader of the Ninja Turtles and a devoted student of Ninjutsu, usually wearing a blue mask and wielding two katanas. Leader in blue." 
     },
