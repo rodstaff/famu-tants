@@ -1,4 +1,4 @@
-export default function([a,b,c]) {
+export default function(a,b,c) {
 //This calculation is roughly accurate to months,as you can see...
 var d = "";
 
@@ -14,7 +14,7 @@ var d = "";
     a=a+1
   }
   if (b===0 && c===0) {
-    d=": Hey, Happy Birthday!!!"
+    d=": Hey, Happy Birthday!!!  Thank you for your tremendous contribution to humanity."
   } else {
   	d="."
   }
