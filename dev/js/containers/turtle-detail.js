@@ -24,7 +24,7 @@ class TurtleDetail extends React.Component {
           <h4>{this.props.turtle.name} aka "{this.props.turtle.aka}"</h4>
           <h4>Age: &nbsp;&nbsp;{this.props.turtle.age}</h4>
           <h4>Description: &nbsp;&nbsp;{this.props.turtle.description}</h4>
-          <h5>(Images and descriptions courtesy of Wikipedia)</h5>
+          <h5>(Image and description courtesy of Wikipedia)</h5>
         </em>
       </div>
   	);
