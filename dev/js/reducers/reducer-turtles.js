@@ -7,35 +7,35 @@ export default function() {
   return [
     {
       id: 1,
-      name: "Leonardo",
-      aka: "Leo",
+      name: "leonardo",
+      aka: "leo",
       age: "eternally < 20",
       image: Leonardo,
-      description: "Leonardo is the cool, courageous leader of the Ninja Turtles and a devoted student of Ninjutsu, usually wearing a blue mask and wielding two katanas. Leader in blue." 
+      description: "leonardo is the cool, courageous leader of the ninja turtles and a devoted student of ninjutsu, usually wearing a blue mask and wielding two katanas. leader in blue." 
     },
     {
   	  id: 2,
-      name: "Michaelangelo",
-      aka: "Mickey",
+      name: "michaelangelo",
+      aka: "mickey",
       age: "eternally < 20",
       image: Michaelangelo,
-      description: "Michelangelo is the most comical of the Ninja Turtles, usually wearing an orange mask and wielding a pair of nunchucks."
+      description: "michelangelo is the most comical of the ninja turtles, usually wearing an orange mask and wielding a pair of nunchucks."
     },
     {
   	  id: 3,
-      name: "Donatello",
-      aka: "Donnie",
+      name: "donatello",
+      aka: "donnie",
       age: "eternally < 20",
       image: Donatello,
-      description: "Donatello is the scientist, inventor, engineer and technological genius of the Ninja Turtles, usually wearing a purple mask and wielding a bo-staff."
+      description: "donatello is the scientist, inventor, engineer and technological genius of the ninja turtles, usually wearing a purple mask and wielding a bo-staff."
      },
      {
       id: 4,
-      name: "Raphael",
-      aka: "Raph",
+      name: "raphael",
+      aka: "raph",
       age: "eternally < 20",
       image: Raphael,
-      description: "Raphael is the bad boy of the Ninja Turtles, wearing a red mask and wielding a pair of sais."
+      description: "raphael is the bad boy of the ninja turtles, wearing a red mask and wielding a pair of sais."
      }
   ]
 };

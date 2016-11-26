@@ -14,7 +14,7 @@ class TurtleDetail extends React.Component {
     if (!this.props.turtle) {
       return (
         <h4>
-           Place the cursor over your favorite Ninja and click...
+           place the cursor over your favorite ninja and click...
         </h4>);
     }
   	return (
@@ -22,9 +22,9 @@ class TurtleDetail extends React.Component {
         <img class="img-responsive" src={this.props.turtle.image} width="250" alt={SmileyFace} />
         <em>
           <h4>{this.props.turtle.name} aka "{this.props.turtle.aka}"</h4>
-          <h4>Age: &nbsp;&nbsp;{this.props.turtle.age}</h4>
-          <h4>Description: &nbsp;&nbsp;{this.props.turtle.description}</h4>
-          <h5>(Image and description courtesy of Wikipedia)</h5>
+          <h4>age: &nbsp;&nbsp;{this.props.turtle.age}</h4>
+          <h4>description: &nbsp;&nbsp;{this.props.turtle.description}</h4>
+          <h5>(image and description courtesy of wikipedia)</h5>
         </em>
       </div>
   	);

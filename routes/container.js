@@ -29,7 +29,7 @@ const Nav = () => (
       <ul class="nav navbar-nav">
         <li><IndexLink activeClassName='active' to='/'>Home</IndexLink></li>
         <li><IndexLink activeClassName='active' to='/user'>Famous People</IndexLink></li>
-        <li><IndexLink activeClassName='active' to='/turtles'>Mutant Turtles</IndexLink></li>
+        <li><IndexLink activeClassName='active' to='/turtles'>mutant turtles</IndexLink></li>
       </ul>
     </div>
   </nav>

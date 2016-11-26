@@ -10,7 +10,7 @@ var myStyle = {
 export const Turtles = (props) => (
   <div style={myStyle}>
     <br />
-    <h2>This is the Turtles Page</h2>
+    <h2>THIs Is THe TURTLes PAGe</h2>
     <CompTurtle />
   </div>
 )
