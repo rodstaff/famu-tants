@@ -83,8 +83,8 @@ export default function() {
     },
     {
       id: 7,
-      name: "Mother",
-      last: "Teresa",
+      name: "St. Teresa",
+      last: "of Calcutta",
       bornMonth: "August",
       bornDay: 26, 
       bornYear: 1910,

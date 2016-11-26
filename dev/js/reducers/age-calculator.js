@@ -14,9 +14,9 @@ var d = "";
     a=a+1
   }
   if (b===0 && c===0) {
-    d=": Hey, Happy Birthday!!!  Thank you for your tremendous contribution to humanity."
+    d=": Hey, Happy Birthday!!!"
   } else {
-  	d="."
+  	d=""
   }
   return (
     [a,b,d]
